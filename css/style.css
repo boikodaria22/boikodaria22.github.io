@@ -583,6 +583,74 @@ textarea:focus::-webkit-input-placeholder {
 
 /*adaptability*/
 
+@media (max-width: 576px){
+  header.menu-bar {
+    padding: 5px;
+  }
+
+  .about-us {
+    padding: 5px;
+  }
+
+  .supply {
+    padding: 0 5px;
+    margin: 100px auto 0;
+  }
+
+  .partner {
+    padding: 0 5px;
+    margin: 100px auto 0;
+  }
+  .news{
+    padding: 100px 5px 0px;
+  }
+  .slider-news__item img,
+  .slider__item img {
+    max-width: 100%;
+  }
+  .slider-news__item a,
+  .slider__item a {
+    font-size: 14px;
+    width: 300px;
+  }
+  .slider-news__control button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+  .slider__control button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+
+  .section-footer {
+    padding: 100px 5px 120px 5px;
+  }
+
+  .contact-wrapper {
+    max-width: 350px;
+    max-height: auto;
+    border: 1px solid #837880;
+    padding: 25px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .contact-wrapper input[type="text"],
+  .contact-wrapper input[type="email"] {
+    max-width: 145px;
+  }
+  .contact-wrapper textarea {
+    max-width: 310px;
+  }
+  .contact-wrapper button {
+    padding: 18px 50px 18px 50px;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    z-index: 1;
+  }
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
   header.menu-bar {
     padding: 20px;
