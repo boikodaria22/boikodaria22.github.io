@@ -8,44 +8,87 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://code.jquery.com/jquery-git.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  
   <title>Mueller</title>
 </head>
 <body>
-  <header class="menu-bar sticky-top">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-2">
-          <a href="#"><img src="img/logo.png" alt="Logo" class="logo"></a>
-        </div>
-        <div class="d-none d-xl-block col-xl-10 align-self-center">
-          <nav>
-            <ul class="menu d-flex justify-content-end align-self-center">
-              <li class="menu__item active"><a href="#" class="nav-link">ÜBER MICH</a></li>
-              <li class="menu__item"><a href="#" class="nav-link">ANGEBOTE</a></li>
-              <li class="menu__item"><a href="#" class="nav-link">PARTNER</a></li>
-              <li class="menu__item"><a href="#" class="nav-link">NEWS</a></li>
-              <li class="menu__item"><a href="#" class="nav-link">FAQ</a></li>
-              <li class="menu__item"><a href="#" class="nav-link">CONTACT ME</a></li>
-              <li class="menu__item lang de"><a href="#">de</a><span>|</span></li>
-              <li class="menu__item lang ru"><a href="#">ru</a></li>
-              <li class="menu__item social inst"><a href="#"></a></li>
-              <li class="menu__item social fb"><a href="#"></a></li>
-            </ul>
-          </nav>
-       </div>
-      </div>
-    </div>
-  </header>
 
-  <header class="header">
-    <div class="container-fluid">
+  <!-- ========================================================= NavBar ========================================================-->
+
+<header class="header sticky-top">
+		<div class="header__nav container-fluid">
+			<nav class="row header__menu navbar navbar-light navbar-expand-xl">
+				<div class="navbar-brand-wrapper">
+					<a class="navbar-brand menu__logo" href="#"><img class="w-100" src="img/logo.png" alt="logo"></a>
+				</div>
+        <div class="dropdown  d-xl-none">
+          <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            LANG
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">DE</a>
+            <a class="dropdown-item" href="#">RU</a>
+          </div>
+        </div>
+        <div class="dropdown d-xl-none">
+          <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            SOCIAL
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Instagram</a>
+            <a class="dropdown-item" href="#">Facebook</a>
+          </div>
+        </div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse align-self-center justify-content-center col-xl-8" id="headerNav">
+					<ul class="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse.show">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">ÜBER MICH</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#supply">ANGEBOTE</a>
+						</li>
+            <li class="nav-item">
+							<a class="nav-link" href="#partner">PARTNER</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#news">NEWS</a>
+						</li>
+            <li class="nav-item">
+							<a class="nav-link" href="#faq">FAQ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact-me">CONTACT ME</a>
+						</li>
+					</ul>
+				</div>
+          <div class="d-none d-xl-block col-xl-1 lang justify-content-center align-self-center">
+          <a href="#">de</a>
+        <span>|</span>
+        <a href="#">ru</a>
+        </div>
+        <div class="col-xl-1 d-none d-xl-block social justify-content-end align-self-center">
+          <a href="#" class="inst"></a>
+         <a href="#" class="fb"></a>
+        </div>
+			</nav>
+		</div>
+	</header>
+<!--============================================================ Content =======================================================-->
+  <main>
+<!--============================================================ Header ========================================================-->
+  <section class="section-header">
+    <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-xl-12">
+        <div class="col-xl-12">
           <h1 class="header__title">
             We pep up your Image
           </h1>
@@ -53,287 +96,278 @@
         </div>
       </div>
     </div>
-  </header>
-
-  <section class="about-us">
-   <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12 col-ml-12 col-lg-12 col-xl-6">
-        <img src="img/photo.png" alt="photo-author" class="author">
-      </div>
-      <div class="col-xs-12 col-ml-12 col-lg-12 col-xl-6">
-        <div class="info justify-content-start">
-          <h2 class="section-title">
-            Über mich
-          </h2>
-          <h3 class="section-main-text">
-            Hallo! Mein Name ist Aksana. Ich bin dein persönlicher <span>Stylist und Bildmacher</span>
-          </h3>
-          <p class="text">
-            Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). 
-          </p>
-          <a href="#" class="button button_read_more">Weiterlesen</a>
-        </div>
-      </div>
-    </div>
-   </div>
   </section>
-
-  <main class="supply">
+<!--=========================================================== About us =======================================================-->
+  <section id="about" class="about-us">
     <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-8 p-0">
-          <h2 class="supply-title">
+     <div class="row">
+       <div class="col-lg-12 col-xl-6">
+         <img src="img/photo.png" alt="photo-author" class="author">
+       </div>
+       <div class="col-lg-12 col-xl-6">
+         <div class="info justify-content-start align-self-start">
+           <h2 class="title">
+             Über mich
+           </h2>
+           <h3 class="main-text">
+             Hallo! Mein Name ist Aksana. Ich bin dein persönlicher <span>Stylist und Bildmacher</span>
+           </h3>
+           <p class="text">
+            Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). 
+           </p>
+           <a href="#" class="button button_read_more">Weiterlesen</a>
+         </div>
+       </div>
+     </div>
+    </div>
+   </section>
+<!--=========================================================== Supply =======================================================-->
+   <section id="supply" class="supply">
+    <div class="container-fluid">
+      <div class="row justify-content-center supply-header">
+        <div class="col-lg-12 col-xl-8">
+          <h2 class="title">
             ANGEBOTE
           </h2>
-          <p class="text">
+          <p class="text align-self-center">
             Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand 
           </p>
         </div>
       </div>
       <div class="products">
-        <div class="row justify-content-around">
-          <div class="col-xl-2 supply__item">
+        <div class="row justify-content-center align-self-center">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4 col-xl-2 supply__item">
             <a href="#"><img src="img/color.png" alt="color"><br>Farb-und Stilberatung</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4 col-xl-2 supply__item">
             <a href="#"><img src="img/make-up.png" alt="make up"><br>Make-up</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4  col-xl-2 supply__item">
             <a href="#"><img src="img/dresscode.png" alt="dresscode"><br>Dresscodes</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4  col-xl-2 supply__item">
             <a href="#"><img src="img/shopping.png" alt="personal shopper"><br>Personal shopper</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4 col-xl-2 supply__item">
             <a href="#"><img src="img/online_shoping.png" alt="shopping"><br>Shopping /skyp</a>
           </div>
         </div>
-        <div class="row justify-content-around">
-          <div class="col-xl-2 supply__item">
+        <div class="row justify-content-center align-self-center">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4  col-xl-2 supply__item">
             <a href="#" class="supply__link"><img src="img/camera.png" alt="camera"><br>Fotoshootings</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4  col-xl-2 supply__item">
             <a href="#" class="supply__link"><img src="img/figure.png" alt="body"><br>Figuroptimirung</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4  col-xl-2 supply__item">
             <a href="#" class="supply__link"><img src="img/gift.png" alt="gift"><br>Geschenkgutschein</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4 col-xl-2 supply__item">
             <a href="#" class="supply__link"><img src="img/bear.png" alt="bear"><br>Kinder Shopping</a>
           </div>
-          <div class="col-xl-2 supply__item">
+          <div class="col-12 col-xs-12 col-md-12 col-lg-4 col-xl-2 supply__item">
             <a href="#" class="supply__link"><img src="img/seminar.png" alt="seminar"><br>Seminare</a>
           </div>
         </div>
       </div>
         <a href="#" class="button button_learn_more">mehr sehen</a>
       </div>
-  
-  </main>
-
-  <section class="partner">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <h2 class="supply-title">
-            PARTNER
-        </h2>
-      </div>
-      <div class="row justify-content-start">
-        <div class="col-xl-4">
-          <h3 class="section-main-text">
-            Sind Sie an einer Zusammenarbeit interessiert?
-          </h3>
+    </section>
+<!--=========================================================== Partner =======================================================-->
+    <section id="partner"  class="partner">
+      <div class="container-fluid">
+        <div class="row col-lg-12 justify-content-center">
+          <h2 class="title">
+              PARTNER
+          </h2>
         </div>
-        <div class="col-xl-7 align-self-center">
-          <p class="text">
-            Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). 
-          </p>
+        <div class="row justify-content-start">
+          <div class="col-xs-12 col-md-12 col-lg-12 col-xl-4 align-self-center">
+            <h3 class="main-text w-100">
+              Sind Sie an einer Zusammenarbeit interessiert?
+            </h3>
+          </div>
+          <div class="col-xs-12 col-md-12 col-lg-12  col-xl-7 align-self-center">
+            <p class="text w-100">
+              Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). 
+            </p>
+          </div>
         </div>
-      </div>
-    
-  
+      <div class="container-fluid">
         <div id="slider" class="slider">
-          <div class="row justify-content-between  align-items-center" >
-          <div class="slider-wrapper col-xs-12  col-sm-12 col-xl-11 d-flex  justify-content-md-center">
+          <div class="row align-items-center">
+          <div class="slider-wrapper col-lg-12 col-xl-11">
             <div class="slider-items">
                <div class="slider__item">
-                 <div class="partner-logo">
-                   <img src="img/MaxMara.png" alt="">
-                   </div>
+                 <div class="partner-card card w-100">
+                   <img class="partner-logo card-img-top" src="img/MaxMara.png" alt="partner-logo">
                    <div class="partner-info-hover text-center">
-                     <h3>Max Mara</h3>
-                     <h4>Demo-Text für die Print- und Schriftindustrie</h4>
-                   </div>
-               </div>
-             
-          
-              <div class="slider__item">
-                <div class="partner-logo">
-                  <img src="img/HugoBoss.png" alt="">
-                  </div>
-                  <div class="partner-info-hover text-center">
-                    <h3>Hugo Boss</h3>
-                    <h4>Demo-Text für die Print- und Schriftindustrie</h4>
-                  </div>
-              </div>
-              
-            
-          
-              <div class="slider__item">
-                <div class="partner-logo">
-                  <img src="img/MaxMara.png" alt="">
-                  </div>
-                  <div class="partner-info-hover text-center">
                     <h3>Max Mara</h3>
                     <h4>Demo-Text für die Print- und Schriftindustrie</h4>
                   </div>
+                   </div>
+               </div>
+               <div class="slider__item d-none d-lg-block">
+                <div class="partner-card card w-100">
+                  <img class="partner-logo card-img-top" src="img/HugoBoss.png" alt="partner-logo">
+                  <div class="partner-info-hover text-center">
+                   <h3>Max Mara</h3>
+                   <h4>Demo-Text für die Print- und Schriftindustrie</h4>
+                 </div>
+                  </div>
               </div>
-          
+              <div class="slider__item d-none d-lg-block">
+                <div class="partner-card card w-100">
+                  <img class="partner-logo card-img-top" src="img/MaxMara.png" alt="partner-logo">
+                  <div class="partner-info-hover text-center">
+                   <h3>Max Mara</h3>
+                   <h4>Demo-Text für die Print- und Schriftindustrie</h4>
+                 </div>
+                  </div>
+              </div>
             </div>
-           
           </div>
-          <div class="col-xs-12 col-sm-12 col-xl-1">
+          <div class="d-none d-xl-block col-xl-1">
             <div class="slider__control">
             <button class="button next" data-slide="next"><img src="img/to-right.png" alt="to-right"></button>
             <button class="button prev"  data-slide="prev"><img src="img/to-left.png" alt="to-left"></button>
             </div>
           </div>
+          <div class="d-xl-none col-12 text-left">
+            <div class="slider__control between">
+            <button class="button prev"  data-slide="prev"><img src="img/to-left.png" alt="to-left"></button>
+            <button class="button next" data-slide="next"><img src="img/to-right.png" alt="to-right"></button>
+            </div>
+          </div>
         </div>
     </div>
-    
     </div>
-    <div class="row justify-content-center">
-    <a href="#" class="button button_learn_more">mehr sehen</a> 
-    </div>
-  </section>
-
-  <article class="news">
-    <div class="container-fluid">
+      </div>
       <div class="row justify-content-center">
-        <h2 class="supply-title">
-            NEWS
-        </h2>
+      <a href="#" class="button button_learn_more">mehr sehen</a> 
       </div>
-    </div>
-    <div class="container-fluid">
-      
-        <div id="slider-news" class="slider-news">
-          <div class="row justify-content-between  align-items-center">
-          <div class="slider-news-wrapper col-xl-11 d-flex  justify-content-md-center">
-            <div class="slider-news-items">
-               <div class="slider-news__item">
-                 <div class="news-card">
-                   <img src="img/news-item-1.png" alt="">
-                   </div>
-                   <div class="news-info text-start">
-                     <p>Feb 27, 2018</p>
-                     <a href="" class="news-link">22 Beauty Ideas to Steal From Milan Fashion Week Showgoers</a>
-                   </div>
+    </section>
+<!--=========================================================== News =======================================================-->
+    <article id="news" class="news">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <h2 class="title">
+              NEWS
+          </h2>
+        </div>
+      </div>
+      <div class="container-fluid">
+          <div id="slider-news" class="slider-news">
+            <div class="row align-items-center">
+              <div class="slider-news-wrapper col-lg-12 col-xl-11">
+                <div class="slider-news-items">
+                  <div class="slider-news__item">
+                     <div class="news card w-100">
+                      <img class="card-img-top" src="img/news-item-1.png" alt="">
+                      <div class="card-body news-info">
+                         <p class="card-title">Feb 27, 2018</p>
+                        <a href="" class="card-text news-link">22 Beauty Ideas to Steal From Milan Fashion Week Showgoers</a>
+                     </div>
+                     </div>
+                 </div>
+                 <div class="slider-news__item d-none d-lg-block">
+                  <div class="news card w-100">
+                    <img class="card-img-top" src="img/news-item-2.png" alt="">
+                    <div class="card-body news-info text-start">
+                      <p class="card-title">Feb 26, 2018</p>
+                      <a href="" class="card-text news-link">Top 10 Shoes of Milan Fashion Week Fall 2018</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="slider-news__item d-none d-lg-block">
+                  <div class="news card w-100">
+                    <img class="card-img-top" src="img/news-item-3.png" alt="">
+                    <div class="card-body new-info text-start">
+                      <p class="card-title">Feb 20, 2018</p>
+                      <a href="" class="card-text news-link">Lacoste’s Fall 2018 Collection Has All-Weather Boots to Battle Wind, Rain, Snow and Cold</a>
+                    </div>
+                    </div>
+                </div>
                </div>
-               <div class="slider-news__item">
-                <div class="news-card">
-                  <img src="img/news-item-2.png" alt="">
-                  </div>
-                  <div class="news-info text-start">
-                    <p>Feb 26, 2018</p>
-                    <a href="" class="news-link">Top 10 Shoes of Milan Fashion Week Fall 2018</a>
-                  </div>
-              </div>
-              <div class="slider-news__item">
-                <div class="news-card">
-                  <img src="img/news-item-3.png" alt="">
-                  </div>
-                  <div class="new-info text-start">
-                    <p>Feb 20, 2018</p>
-                    <a href="" class="news-link">Lacoste’s Fall 2018 Collection Has All-Weather Boots to Battle Wind, Rain, Snow and Cold</a>
-                  </div>
-              </div>
-           <div></div>
             </div>
-           
-          </div>
-          <div class="col-xs-12 col-md-12 col-xl-1">
-            <div class="slider-news__control">
-            <button class="button news-next" data-slide="next"><img src="img/to-right.png" alt="to-right"></button>
-            <button class="button news-prev"  data-slide="prev"><img src="img/to-left.png" alt="to-left"></button>
+            <div class="d-none d-xl-block col-xl-1">
+              <div class="slider-news__control">
+              <button class="button next news-next" data-slide="next"><img src="img/to-right.png" alt="to-right"></button>
+              <button class="button prev news-prev"  data-slide="prev"><img src="img/to-left.png" alt="to-left"></button>
+              </div>
+            </div>
+            <div class="d-xl-none col-12 text-left">
+              <div class="slider__control between">
+              <button class="button prev"  data-slide="prev"><img src="img/to-left.png" alt="to-left"></button>
+              <button class="button next" data-slide="next"><img src="img/to-right.png" alt="to-right"></button>
+              </div>
             </div>
           </div>
-        </div>
-    </div>
-    
-    </div>
-    <div class="row justify-content-center">
-    <a href="#" class="button button_learn_more">mehr sehen</a> 
-    </div>
-  </article>
-
-  <footer class="section-footer">
-    <h2 class="section-title text-center">
-      Kontakt
-    </h2>
-    <div class="container-fluid">
-     <div class="row">
-       <div class="col-lg-12 col-xl-4">
-         <div class="footer-text justify-content-start">
-           <h3 class="footer-main-text">
-            Zögern Sie nicht, eine Frage zu stellen
-           </h3>
-           <p class="text">
-             Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). 
-           </p>
-
-         </div>
-       </div>
-       <div class="col-lg-12 col-xl-8">
-        <div class="contact-form justify-content-between">
-
-          <div class="contact-wrapper">
-
-            <form action="#" name="newform" method="post">
-
-              <div class="form-inputs">
-                <div class="person">
-                <div class="form-item">
-                  <input id="form-name" type ="text" placeholder="NAME*">
-                 <label for="form-name">NAME*</label>
-                </div>
-
-                <div class="form-item">
-                  <input id="form-email" type ="email" placeholder="E-Mail ADRESSE*">
-                <label id="email" for="form-email">E-Mail ADRESSE*</label>
-                </div>
-              </div>
-                <div class="form-item">
-                  <textarea id="form-text" placeholder="Ihre Nachricht*"></textarea>
-                  <label for="form-text">Ihre Nachricht*</label>
-                </div>
-                
-                <button class="button">Senden</button>
-
-              </div>
-            </form>
-          </div>
-        </div>
       </div>
-     </div>
-    </div>
-   </footer>
-   <div id="upbutton"><img src="img/to-main.png" alt="to-up"></div>
+      </div>
+      <div class="row justify-content-center">
+      <a href="#" class="button button_learn_more">mehr sehen</a> 
+      </div>
+    </article>
+  </main>
+<!--=========================================================== Footer =======================================================-->
+    <footer class="footer">
+      <h2 class="title text-center">
+        Kontakt
+      </h2>
+      <div class="container-fluid">
+       <div class="row">
+         <div class="col-lg-12 col-xl-4">
+           <div class="footer-text justify-content-start">
+             <h3 class="main-text col-lg-12 ">
+              Zögern Sie nicht, eine Frage zu stellen
+             </h3>
+             <p class="text col-lg-12 ">
+               Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). 
+             </p>
+           </div>
+         </div>
+         <div class="col-lg-12 col-xl-8">
+          <form class="contact-wrapper">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputName4">Name*</label>
+                <input type="text" class="form-control" id="inputName4" placeholder="Name*">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">E-mail Address*</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email*">
+              </div>
+            </div>
+            <div class="form-group message">
+              <label for="inputMessage">Ihre Nachricht*</label>
+              <textarea id="inputMessage"  class="form-control" placeholder="Ihre Nachricht*"></textarea>
+            </div>
+            <button type="submit" class="button">Senden</button>
+          </form>
+        </div>
+        </div>
+       </div>
+      </div>
+     </footer>
+ <!--=========================================================== to-up =======================================================-->
+     <div id="upbutton"><img src="img/to-main.png" alt="to-up"></div>
 
-   <script>
-    $(window).on('scroll', function() {
-        if ($(this).scrollTop() > 100) {
-            if ($('#upbutton').is(':hidden')) {
-                $('#upbutton').css({opacity : 1}).fadeIn('slow');
-            }
-        } else { 
-            $('#upbutton').stop(true, false).fadeOut('fast'); 
-        }
-    });
-    $('#upbutton').on('click', function() {
-        $('html, body').stop().animate({scrollTop : 0}, 300);
-    });
-</script>
+<!--===================================================jquery for up=====================================================-->
+
+     <script>
+      $(window).on('scroll', function() {
+          if ($(this).scrollTop() > 100) {
+              if ($('#upbutton').is(':hidden')) {
+                  $('#upbutton').css({opacity : 1}).fadeIn('slow');
+              }
+          } else { 
+              $('#upbutton').stop(true, false).fadeOut('fast'); 
+          }
+      });
+      $('#upbutton').on('click', function() {
+          $('html, body').stop().animate({scrollTop : 0}, 300);
+      });
+  </script>
 </body>
 </html>
