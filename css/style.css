@@ -1056,3 +1056,167 @@ textarea#inputMessage::-moz-placeholder {
     right: 5px;
   }
 }
+@media screen and (max-width: 429px){
+  .header,
+  .about-us,
+  .footer {
+    padding-left: 0px;
+    margin: 0px;
+  }
+
+  .title{
+    font-size: 30px;
+    margin-top:20px ;
+  }
+
+  .slider-news-xs{
+    margin-left: 15px;
+  }
+  .news .button_learn_more {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main-text{
+    line-height: 1.2;
+  }
+
+  .slider-news__item:hover img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer .title {
+    margin: 0 0 50px 0;
+  }
+
+  .partner .title {
+    margin-left: 0px;
+  }
+  
+  .partner{
+    margin-left: 15px;
+  }
+
+  .partner .main-text{
+    margin-left: 15px;
+  }
+
+  .about-us,
+  .footer {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .supply {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .supply .text {
+    margin-left: 0px;
+  }
+
+  .partner {
+    margin: 0 0px 50px 0px;
+  }
+
+  .slider {
+    margin-left: 15%;
+  }
+
+  .about-us .title {
+    padding-bottom: 10px;
+  }
+
+  .about-us {
+    padding-right: 0px;
+  }
+
+  .main-text {
+    font-size: 20px;
+  }
+
+  .about-us .author {
+    margin: 0 auto 30px;
+  }
+
+  .about-us .main-text {
+    padding-bottom: 10px;
+  }
+
+  .about-us .text {
+    margin-bottom: 50px;
+  }
+
+  .partner .main-text {
+    padding: 0;
+    text-align: center;
+  }
+
+  .partner .text {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .partner-info-hover {
+    padding: 0px 0px;
+  }
+
+  .partner-info-hover h3 {
+    font-size: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .partner-info-hover h4 {
+    font-size: 10px;
+    padding-bottom: 0px;
+    line-height: 1px;
+  }
+
+  .slider__item:hover .partner-card img {
+    opacity: 0;
+    height: 232px;
+    width: 100%;
+  }
+
+  .slider__item {
+    height: 230px;
+  }
+
+  .slider__control__button {
+    padding: 0;
+  }
+
+  .supply .text {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .footer .main-text {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .footer .text {
+    text-align: center;
+  }
+
+  .contact-wrapper {
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  #upbutton {
+    bottom: 1px;
+    right: 1px;
+  }
+}
