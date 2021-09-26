@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://code.jquery.com/jquery-git.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -30,7 +31,7 @@
         <div class="navbar-brand-wrapper">
           <a class="navbar-brand menu__logo" href="#"><img class="w-100" src="img/logo.png" alt="logo"></a>
         </div>
-        <div class="dropdown  d-xl-none">
+        <div class="dropdown d-none d-sm-block d-xl-none">
           <button class="dropdown-toggle" type="button" id="dropdownLangButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             LANG
           </button>
@@ -39,7 +40,7 @@
             <a class="dropdown-item" href="#">RU</a>
           </div>
         </div>
-        <div class="dropdown d-xl-none">
+        <div class="dropdown d-none d-sm-block d-xl-none">
           <button class="dropdown-toggle" type="button" id="dropdownSocialButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             SOCIAL
           </button>
@@ -51,7 +52,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center align-self-center justify-content-center col-xl-8" id="headerNav">
+        <div class="collapse text-center navbar-collapse align-self-center justify-content-center col-xl-8" id="headerNav">
           <ul class="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse.show">
             <li class="nav-item">
               <a class="nav-link" href="#about">ÜBER MICH</a>
@@ -206,8 +207,39 @@
             </p>
           </div>
         </div>
+        <div class="slider-news-xs d-block d-sm-none">
+          <div class="row slider-items">
+            <div class="slider__item">
+              <div class="partner-card card w-100">
+                <img class="partner-logo card-img-top" src="img/MaxMara.png" alt="partner-logo">
+                <div class="partner-info-hover text-center">
+                  <h3>Max Mara</h3>
+                  <h4>Demo-Text für die Print- und Schriftindustrie</h4>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item d-none d-lg-block">
+              <div class="partner-card card w-100">
+                <img class="partner-logo card-img-top" src="img/HugoBoss.png" alt="partner-logo">
+                <div class="partner-info-hover text-center">
+                  <h3>Max Mara</h3>
+                  <h4>Demo-Text für die Print- und Schriftindustrie</h4>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item d-none d-lg-block">
+              <div class="partner-card card w-100">
+                <img class="partner-logo card-img-top" src="img/MaxMara.png" alt="partner-logo">
+                <div class="partner-info-hover text-center">
+                  <h3>Max Mara</h3>
+                  <h4>Demo-Text für die Print- und Schriftindustrie</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="container-fluid">
-          <div id="slider" class="slider">
+          <div id="slider" class="slider d-none d-xs-block">
             <div class="row align-items-center">
               <div class="slider-wrapper col-lg-12 col-xl-11">
                 <div class="slider-items">
@@ -269,14 +301,47 @@
           </h2>
         </div>
       </div>
+
+      <div class="slider-news-xs d-block d-sm-none">
+        <div class="row slider-news-items">
+          <div class="slider-news__item col-xs-12">
+            <div class="news card w-100">
+              <img class="card-img-top" src="img/news-item-1.png" alt="news">
+              <div class="card-body news-info">
+                <p class="card-title">Feb 27, 2018</p>
+                <a href="" class="card-text news-link">22 Beauty Ideas to Steal From Milan Fashion Week Showgoers</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-news__item col-xs-12">
+            <div class="news card w-100">
+              <img class="card-img-top" src="img/news-item-2.png" alt="news">
+              <div class="card-body news-info text-start">
+                <p class="card-title">Feb 26, 2018</p>
+                <a href="" class="card-text news-link">Top 10 Shoes of Milan Fashion Week Fall 2018</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-news__item col-xs-12">
+            <div class="news card w-100">
+              <img class="card-img-top" src="img/news-item-3.png" alt="news">
+              <div class="card-body new-info text-start">
+                <p class="card-title">Feb 20, 2018</p>
+                <a href="" class="card-text news-link">Lacoste’s Fall 2018 Collection Has All-Weather Boots to Battle Wind, Rain, Snow and Cold</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="container-fluid">
-        <div id="slider-news" class="slider-news">
+        <div id="slider-news" class="slider-news d-none d-xs-block">
           <div class="row align-items-center">
             <div class="slider-news-wrapper col-lg-12 col-xl-11">
               <div class="slider-news-items">
                 <div class="slider-news__item">
                   <div class="news card w-100">
-                    <img class="card-img-top" src="img/news-item-1.png" alt="">
+                    <img class="card-img-top" src="img/news-item-1.png" alt="news">
                     <div class="card-body news-info">
                       <p class="card-title">Feb 27, 2018</p>
                       <a href="" class="card-text news-link">22 Beauty Ideas to Steal From Milan Fashion Week Showgoers</a>
@@ -285,7 +350,7 @@
                 </div>
                 <div class="slider-news__item d-none d-lg-block">
                   <div class="news card w-100">
-                    <img class="card-img-top" src="img/news-item-2.png" alt="">
+                    <img class="card-img-top" src="img/news-item-2.png" alt="news">
                     <div class="card-body news-info text-start">
                       <p class="card-title">Feb 26, 2018</p>
                       <a href="" class="card-text news-link">Top 10 Shoes of Milan Fashion Week Fall 2018</a>
@@ -294,7 +359,7 @@
                 </div>
                 <div class="slider-news__item d-none d-lg-block">
                   <div class="news card w-100">
-                    <img class="card-img-top" src="img/news-item-3.png" alt="">
+                    <img class="card-img-top" src="img/news-item-3.png" alt="news">
                     <div class="card-body new-info text-start">
                       <p class="card-title">Feb 20, 2018</p>
                       <a href="" class="card-text news-link">Lacoste’s Fall 2018 Collection Has All-Weather Boots to Battle Wind, Rain, Snow and Cold</a>
