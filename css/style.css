@@ -1087,6 +1087,8 @@ textarea#inputMessage::-moz-placeholder {
   
   .slider-news-xs{
     margin-left: 15px;
+    margin-top:30px;
+    margin-bottom:-30px;
   }
   
   .slider-news__item{
@@ -1202,7 +1204,7 @@ textarea#inputMessage::-moz-placeholder {
     line-height: 1px;
   }
 
-    .slider__item:hover .partner-card img {
+  .slider__item:hover .partner-card img {
     opacity: 0;
     height: 100%;
     width: 100%;
@@ -1218,7 +1220,7 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   .footer {
-    margin: 0 auto;
+    margin: 50px auto 0;
     padding: 0;
   }
 
