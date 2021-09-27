@@ -929,10 +929,6 @@ textarea#inputMessage::-moz-placeholder {
     margin-bottom: 40px;
   }
 
-  .news {
-    margin-left: -8%;
-  }
-
   .slider-news__item:hover img {
     height: 100%;
   }
