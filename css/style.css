@@ -1072,7 +1072,11 @@ textarea#inputMessage::-moz-placeholder {
     font-size: 30px;
     margin-top:20px ;
   }
-
+  
+  .slider-news-xs{
+    margin-left: 15px;
+  }
+  
   .slider-news__item{
     margin:0;
     padding: 0 15px;
