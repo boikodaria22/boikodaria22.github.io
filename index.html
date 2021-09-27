@@ -208,7 +208,7 @@
           </div>
         </div>
         <div class="slider-news-xs d-block d-sm-none">
-          <div class="row slider-items">
+          <div class="row justify-content-center slider-items">
             <div class="slider__item">
               <div class="partner-card card w-100">
                 <img class="partner-logo card-img-top" src="img/MaxMara.png" alt="partner-logo">
@@ -240,7 +240,7 @@
         </div>
         <div class="container-fluid">
           <div id="slider" class="slider  d-none  d-sm-block">
-            <div class="row align-items-center">
+            <div class="row justify-content-center align-items-center">
               <div class="slider-wrapper col-lg-12 col-xl-11">
                 <div class="slider-items">
                   <div class="slider__item">
@@ -303,7 +303,7 @@
       </div>
 
       <div class="slider-news-xs d-block d-sm-none">
-        <div class="row slider-news-items">
+        <div class="row  justify-content-center slider-news-items">
           <div class="slider-news__item col-xs-12">
             <div class="news card w-100">
               <img class="card-img-top" src="img/news-item-1.png" alt="">
@@ -433,20 +433,24 @@
   <div id="upbutton"><img src="img/to-main.png" alt="to-up"></div>
 
   <!--===================================================jquery for up=====================================================-->
-  
-     <script>
-      $(window).on('scroll', function() {
-          if ($(this).scrollTop() > 100) {
-              if ($('#upbutton').is(':hidden')) {
-                  $('#upbutton').css({opacity : 1}).fadeIn('slow');
-              }
-          } else { 
-              $('#upbutton').stop(true, false).fadeOut('fast'); 
-          }
-      });
-      $('#upbutton').on('click', function() {
-          $('html, body').stop().animate({scrollTop : 0}, 300);
-      });
+
+  <script>
+    $(window).on('scroll', function() {
+      if ($(this).scrollTop() > 100) {
+        if ($('#upbutton').is(':hidden')) {
+          $('#upbutton').css({
+            opacity: 1
+          }).fadeIn('slow');
+        }
+      } else {
+        $('#upbutton').stop(true, false).fadeOut('fast');
+      }
+    });
+    $('#upbutton').on('click', function() {
+      $('html, body').stop().animate({
+        scrollTop: 0
+      }, 300);
+    });
   </script>
 </body>
 
