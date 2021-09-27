@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://code.jquery.com/jquery-git.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -102,6 +101,7 @@
       </div>
     </section>
     <!--=========================================================== About us =======================================================-->
+
     <section id="about" class="about-us">
       <div class="container-fluid">
         <div class="row">
@@ -239,7 +239,7 @@
           </div>
         </div>
         <div class="container-fluid">
-          <div id="slider" class="slider d-none d-xs-block">
+          <div id="slider" class="slider  d-none  d-sm-block">
             <div class="row align-items-center">
               <div class="slider-wrapper col-lg-12 col-xl-11">
                 <div class="slider-items">
@@ -306,7 +306,7 @@
         <div class="row slider-news-items">
           <div class="slider-news__item col-xs-12">
             <div class="news card w-100">
-              <img class="card-img-top" src="img/news-item-1.png" alt="news">
+              <img class="card-img-top" src="img/news-item-1.png" alt="">
               <div class="card-body news-info">
                 <p class="card-title">Feb 27, 2018</p>
                 <a href="" class="card-text news-link">22 Beauty Ideas to Steal From Milan Fashion Week Showgoers</a>
@@ -315,7 +315,7 @@
           </div>
           <div class="slider-news__item col-xs-12">
             <div class="news card w-100">
-              <img class="card-img-top" src="img/news-item-2.png" alt="news">
+              <img class="card-img-top" src="img/news-item-2.png" alt="">
               <div class="card-body news-info text-start">
                 <p class="card-title">Feb 26, 2018</p>
                 <a href="" class="card-text news-link">Top 10 Shoes of Milan Fashion Week Fall 2018</a>
@@ -324,7 +324,7 @@
           </div>
           <div class="slider-news__item col-xs-12">
             <div class="news card w-100">
-              <img class="card-img-top" src="img/news-item-3.png" alt="news">
+              <img class="card-img-top" src="img/news-item-3.png" alt="">
               <div class="card-body new-info text-start">
                 <p class="card-title">Feb 20, 2018</p>
                 <a href="" class="card-text news-link">Lacoste’s Fall 2018 Collection Has All-Weather Boots to Battle Wind, Rain, Snow and Cold</a>
@@ -335,13 +335,13 @@
       </div>
 
       <div class="container-fluid">
-        <div id="slider-news" class="slider-news d-none d-xs-block">
+        <div id="slider-news" class="slider-news d-none d-sm-block">
           <div class="row align-items-center">
             <div class="slider-news-wrapper col-lg-12 col-xl-11">
               <div class="slider-news-items">
                 <div class="slider-news__item">
                   <div class="news card w-100">
-                    <img class="card-img-top" src="img/news-item-1.png" alt="news">
+                    <img class="card-img-top" src="img/news-item-1.png" alt="">
                     <div class="card-body news-info">
                       <p class="card-title">Feb 27, 2018</p>
                       <a href="" class="card-text news-link">22 Beauty Ideas to Steal From Milan Fashion Week Showgoers</a>
@@ -350,7 +350,7 @@
                 </div>
                 <div class="slider-news__item d-none d-lg-block">
                   <div class="news card w-100">
-                    <img class="card-img-top" src="img/news-item-2.png" alt="news">
+                    <img class="card-img-top" src="img/news-item-2.png" alt="">
                     <div class="card-body news-info text-start">
                       <p class="card-title">Feb 26, 2018</p>
                       <a href="" class="card-text news-link">Top 10 Shoes of Milan Fashion Week Fall 2018</a>
@@ -359,7 +359,7 @@
                 </div>
                 <div class="slider-news__item d-none d-lg-block">
                   <div class="news card w-100">
-                    <img class="card-img-top" src="img/news-item-3.png" alt="news">
+                    <img class="card-img-top" src="img/news-item-3.png" alt="">
                     <div class="card-body new-info text-start">
                       <p class="card-title">Feb 20, 2018</p>
                       <a href="" class="card-text news-link">Lacoste’s Fall 2018 Collection Has All-Weather Boots to Battle Wind, Rain, Snow and Cold</a>
@@ -383,9 +383,10 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mr-0 ml-0">
         <a href="#" class="button button_learn_more">mehr sehen</a>
       </div>
+
     </article>
   </main>
   <!--=========================================================== Footer =======================================================-->
@@ -432,25 +433,21 @@
   <div id="upbutton"><img src="img/to-main.png" alt="to-up"></div>
 
   <!--===================================================jquery for up=====================================================-->
-
-  <script>
-    $(window).on('scroll', function() {
-      if ($(this).scrollTop() > 100) {
-        if ($('#upbutton').is(':hidden')) {
-          $('#upbutton').css({
-            opacity: 1
-          }).fadeIn('slow');
-        }
-      } else {
-        $('#upbutton').stop(true, false).fadeOut('fast');
-      }
-    });
-    $('#upbutton').on('click', function() {
-      $('html, body').stop().animate({
-        scrollTop: 0
-      }, 300);
-    });
-  </script>
+  <!--
+     <script>
+      $(window).on('scroll', function() {
+          if ($(this).scrollTop() > 100) {
+              if ($('#upbutton').is(':hidden')) {
+                  $('#upbutton').css({opacity : 1}).fadeIn('slow');
+              }
+          } else { 
+              $('#upbutton').stop(true, false).fadeOut('fast'); 
+          }
+      });
+      $('#upbutton').on('click', function() {
+          $('html, body').stop().animate({scrollTop : 0}, 300);
+      });
+  </script>-->
 </body>
 
 </html>
