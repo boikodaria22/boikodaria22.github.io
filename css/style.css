@@ -1184,6 +1184,12 @@ textarea#inputMessage::-moz-placeholder {
     line-height: 1px;
   }
 
+    .slider__item:hover .partner-card img {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+  }
+
   .slider__item:hover .partner-card img {
     opacity: 0;
     height: 232px;
