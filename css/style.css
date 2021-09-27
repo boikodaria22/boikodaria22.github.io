@@ -17,7 +17,6 @@
   box-shadow: 6px 6px 2px 1px #d4b9bb;
   outline: 0;
 }
-
 .dropdown-item:hover,.dropdown-item:focus{
   background-color: transparent;
   color:#d4b9bb;
@@ -522,6 +521,7 @@ a.button_learn_more {
 }
 
 /*================Footer===========================*/
+
 .footer {
   padding: 205px 150px 335px 150px;
 }
@@ -1056,6 +1056,7 @@ textarea#inputMessage::-moz-placeholder {
     right: 5px;
   }
 }
+
 @media screen and (max-width: 429px){
   .header,
   .about-us,
@@ -1093,11 +1094,10 @@ textarea#inputMessage::-moz-placeholder {
   .partner .title {
     margin-left: 0px;
   }
-  
   .partner{
     margin-left: 15px;
   }
-
+  
   .partner .main-text{
     margin-left: 15px;
   }
