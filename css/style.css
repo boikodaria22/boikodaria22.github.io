@@ -1073,9 +1073,11 @@ textarea#inputMessage::-moz-placeholder {
     margin-top:20px ;
   }
 
-  .slider-news-xs{
-    margin-left: 15px;
+  .slider-news__item{
+    margin:0;
+    padding: 0 15px;
   }
+  
   .news .button_learn_more {
     margin-top: 20px;
     margin-bottom: 20px;
