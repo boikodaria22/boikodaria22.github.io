@@ -3,6 +3,13 @@
   width: 100%;
 }
 
+.form-row .form-group input:focus, textarea.form-control:focus{
+  -webkit-box-shadow: none;
+  border: none;
+  box-shadow: none;
+  outline: 0;
+}
+
 .button:focus,
 .navbar-toggler:focus,
 .dropdown-toggle:focus {
