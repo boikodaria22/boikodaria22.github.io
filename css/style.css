@@ -1190,16 +1190,6 @@ textarea#inputMessage::-moz-placeholder {
     width: 100%;
   }
 
-  .slider__item:hover .partner-card img {
-    opacity: 0;
-    height: 232px;
-    width: 100%;
-  }
-
-  .slider__item {
-    height: 230px;
-  }
-
   .slider__control__button {
     padding: 0;
   }
