@@ -1,3 +1,4 @@
+
 /*=====================Bootstrap style=================*/
 .form-group input:focus {
   -webkit-box-shadow: none;
@@ -417,6 +418,7 @@ a.button_learn_more {
   justify-content: center;
 }
 /*==========Partner============*/
+
 *,
 ::before,
 ::after {
@@ -447,6 +449,7 @@ a.button_learn_more {
 .slider-partner {
   padding-top: 10px;
   margin-left: -48px;
+  padding-bottom: 100px;
 }
 
 .image__HugoBoss,
@@ -595,7 +598,7 @@ a.button_learn_more {
 }
 
 .slider-news {
-  margin: 0 150px 100px 145px;
+  margin: 15px 150px 250px 145px;
 }
 
 .news-first,
@@ -671,7 +674,7 @@ a.news-card-text {
 /*================Footer===========================*/
 
 .footer {
-  padding: 225px 150px 335px 150px;
+  padding: 240px 150px 335px 150px;
 }
 
 .footer .title {
@@ -841,7 +844,9 @@ textarea#inputMessage::-moz-placeholder {
     margin-bottom: 75px;
     margin: 0;
   }
-
+  .slider-partner{
+   margin-bottom: 70px;
+  }
   .about-us .title {
     padding-bottom: 20px;
   }
@@ -890,6 +895,26 @@ textarea#inputMessage::-moz-placeholder {
     margin-left: 10px;
     text-align: justify;
   }
+  
+  .image__MaxMara:hover::after,
+  .image__MaxMara:focus::after {
+    content: 'MaxMara';
+    position: absolute;
+    top: 60%;
+    color:#fff;
+    font-weight: bold;
+    left: 50%;
+  }
+
+  .image__HugoBoss:hover::after,
+  .image__HugoBoss:focus::after {
+    content: 'HugoBoss';
+    position: absolute;
+    top: 60%;
+    color:#fff;
+    font-weight: bold;
+    left: 50%;
+  }
 
   .slider__control__desktop {
     margin-top: -50px;
@@ -902,6 +927,10 @@ textarea#inputMessage::-moz-placeholder {
 
   .prev {
     margin-top: 5px;
+  }
+
+  .slider__news__control__mobile .prev {
+    margin: 0;
   }
 
   .news .button.button_learn_more {
@@ -1049,12 +1078,35 @@ textarea#inputMessage::-moz-placeholder {
     line-height: 1.5;
   }
 
+  .partner .slider__control__mobile{
+    margin-bottom: 150px;
+  }
+
   .partner .button.button_learn_more {
     margin-top: 30px;
   }
 
   .slider-partner {
     margin-left: 0.5%;
+  }
+  .image__MaxMara:hover::after,
+  .image__MaxMara:focus::after {
+    content: 'MaxMara';
+    position: absolute;
+    top: 60%;
+    color:#fff;
+    font-weight: bold;
+    left: 50%;
+  }
+
+  .image__HugoBoss:hover::after,
+  .image__HugoBoss:focus::after {
+    content: 'HugoBoss';
+    position: absolute;
+    top: 60%;
+    color:#fff;
+    font-weight: bold;
+    left: 50%;
   }
 
   p.news-card-title {
@@ -1245,7 +1297,9 @@ textarea#inputMessage::-moz-placeholder {
     margin: 0 0 20px 0;
     text-align: justify;
   }
-
+  .partner .slider__control__mobile{
+    margin-bottom: 100px;
+  }
   .partner .button.button_learn_more {
     margin-top: 50px;
   }
@@ -1261,14 +1315,38 @@ textarea#inputMessage::-moz-placeholder {
     margin-left: 1%;
   }
 
+  .image__MaxMara:hover::after,
+  .image__MaxMara:focus::after {
+    content: 'MaxMara';
+    position: absolute;
+    top: 60%;
+    color:#fff;
+    font-weight: bold;
+    left: 50%;
+  }
+
+  .image__HugoBoss:hover::after,
+  .image__HugoBoss:focus::after {
+    content: 'HugoBoss';
+    position: absolute;
+    top: 60%;
+    color:#fff;
+    font-weight: bold;
+    left: 50%;
+  }
+
   .slider__item {
     height: 230px;
   }
 
   .slider__news__control__mobile {
-    margin: 100px 0 0;
-    padding: 0;
+    margin: 125px 0px 0;
   }
+
+  .slider__news__control__mobile .prev{
+    margin: 0;
+  }
+
   .news .button.button_learn_more {
     margin-top: -70px;
     margin-bottom: 20px;
@@ -1459,14 +1537,34 @@ textarea#inputMessage::-moz-placeholder {
   }
   .slider__control__mobile {
     padding: 0;
+    margin-bottom: 25px;
   }
 
   .slider-partner {
     margin-left: 0.5%;
   }
-  .partner .button.button_learn_more {
-    margin-top: 40px;
-  }
+
+
+.image__MaxMara:hover::after,
+.image__MaxMara:focus::after {
+  content: 'MaxMara';
+  position: absolute;
+  top: 60%;
+  color:#fff;
+  font-weight: bold;
+  left: 50%;
+}
+
+.image__HugoBoss:hover::after,
+.image__HugoBoss:focus::after {
+  content: 'HugoBoss';
+  position: absolute;
+  top: 60%;
+  color:#fff;
+  font-weight: bold;
+  left: 50%;
+}
+
   /*==============News===================*/
   .news {
     margin-top: -225px;
@@ -1554,4 +1652,5 @@ textarea#inputMessage::-moz-placeholder {
     padding: 7px 30px 7px 30px;
   }
 }
+
 
