@@ -1108,6 +1108,10 @@ textarea#inputMessage::-moz-placeholder {
     font-weight: bold;
     left: 50%;
   }
+  
+  .partner .slider__control__mobile{
+    margin-bottom: 50px;
+  }
 
   p.news-card-title {
     font-size: 16px;
@@ -1126,7 +1130,11 @@ textarea#inputMessage::-moz-placeholder {
     margin-top: -100px;
     margin-bottom: 20px;
   }
-
+  
+  .slider-news {
+    margin: 15px 150px 50px 145px;
+  }
+  
   .news {
     margin-top: -200px;
   }
@@ -1297,9 +1305,11 @@ textarea#inputMessage::-moz-placeholder {
     margin: 0 0 20px 0;
     text-align: justify;
   }
+  
   .partner .slider__control__mobile{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
+  
   .partner .button.button_learn_more {
     margin-top: 50px;
   }
@@ -1338,7 +1348,11 @@ textarea#inputMessage::-moz-placeholder {
   .slider__item {
     height: 230px;
   }
-
+    
+  .slider-news {
+    margin: 15px 150px 50px 145px;
+  }
+  
   .slider__news__control__mobile {
     margin: 125px 0px 0;
   }
@@ -1542,6 +1556,7 @@ textarea#inputMessage::-moz-placeholder {
 
   .slider-partner {
     margin-left: 0.5%;
+    padding-bottom: 50px;
   }
 
 
