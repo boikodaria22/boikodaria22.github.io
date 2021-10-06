@@ -259,137 +259,77 @@ a.button_read_more {
 .supply .text {
   text-align: start;
   margin-left: -21px;
-  margin-bottom: 100px;
   padding: 0 180px;
+  margin-bottom: 65px;
 }
 
 .products {
-  margin-bottom: 23px;
-}
-/*for mobile*/
-.products-mobile .supply__item {
-  width: 153px;
-  margin-bottom: 30px;
+  margin-bottom: 67px;
 }
 
-.products-mobile .supply__item:nth-child(1) {
-  background: url(../img/color.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(2) {
-  background: url(../img/make-up.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(3) {
-  background: url(../img/dresscode.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(4) {
-  background: url(../img/shopping.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(5) {
-  background: url(../img/online_shoping.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(6) {
-  background: url(../img/camera.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(7) {
-  background: url(../img/figure.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(8) {
-  background: url(../img/gift.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(9) {
-  background: url(../img/bear.png) no-repeat;
-  background-position: center;
-}
-
-.products-mobile .supply__item:nth-child(10) {
-  background: url(../img/seminar.png) no-repeat;
-  background-position: center;
-}
-/*===============desktop ============*/
-.products-desktop {
-  margin-bottom: 105px;
-}
-
-.products-desktop .supply__item {
+.supply-products .supply__item {
   width: 153px;
   height: 152px;
-  margin-bottom: 30px;
-  margin-top: -30px;
+  margin-bottom: 73px;
+  padding-top:150px;
 }
 
-.row.first {
-  margin-bottom: 75px;
-}
-
-.products-desktop .row.first .supply__item:nth-child(1) {
+.supply-products .supply__item:nth-child(1) {
   background: url(../img/color.png) no-repeat;
   background-position: center;
+  margin-left: 75px;
+  margin-right: -75px;
 }
 
-.products-desktop .row.first .supply__item:nth-child(2) {
+.supply-products .supply__item:nth-child(2) {
   background: url(../img/make-up.png) no-repeat;
   background-position: center;
 }
 
-.products-desktop .row.first .supply__item:nth-child(3) {
+.supply-products .supply__item:nth-child(3) {
   background: url(../img/dresscode.png) no-repeat;
   background-position: center;
 }
 
-.products-desktop .row.first .supply__item:nth-child(4) {
+.supply-products .supply__item:nth-child(4) {
   background: url(../img/shopping.png) no-repeat;
   background-position: center;
 }
 
-.products-desktop .row.first .supply__item:nth-child(5) {
+.supply-products .supply__item:nth-child(5) {
   background: url(../img/online_shoping.png) no-repeat;
   background-position: center;
+  margin-left: -75px;
+  margin-right: 75px;
 }
 
-.products-desktop .row.second .supply__item:nth-child(1) {
+.supply-products .supply__item:nth-child(6) {
   background: url(../img/camera.png) no-repeat;
   background-position: center;
+  margin-left: 75px;
+  margin-right: -75px;
 }
 
-.products-desktop .row.second .supply__item:nth-child(2) {
+.supply-products .supply__item:nth-child(7) {
   background: url(../img/figure.png) no-repeat;
   background-position: center;
 }
 
-.products-desktop .row.second .supply__item:nth-child(3) {
+.supply-products .supply__item:nth-child(8) {
   background: url(../img/gift.png) no-repeat;
   background-position: center;
 }
 
-.products-desktop .row.second .supply__item:nth-child(4) {
+.supply-products .supply__item:nth-child(9) {
   background: url(../img/bear.png) no-repeat;
   background-position: center;
 }
 
-.products-desktop .row.second .supply__item:nth-child(5) {
+.supply-products .supply__item:nth-child(10) {
   background: url(../img/seminar.png) no-repeat;
   background-position: center;
-}
-
-.products-desktop .row.first .supply__item,
-.products-desktop .row.second .supply__item {
-  padding-top: 148px;
+  margin-left: -75px;
+  margin-right: 75px;
 }
 
 .supply__item a {
@@ -430,7 +370,7 @@ a.button_learn_more {
 }
 
 .partner .title {
-  padding-bottom: 98px;
+  padding-bottom: 85px;
   text-align: center;
 }
 
@@ -438,10 +378,11 @@ a.button_learn_more {
   text-align: start;
   margin-bottom: 90px;
   margin-left: -60px;
+  margin-top: 12px;
 }
 
 .partner .main-text {
-  margin-top: -55px;
+  margin-top: 0px;
   margin-left: -3px;
 }
 
@@ -584,7 +525,7 @@ a.button_learn_more {
 /* =================NEWS =======================*/
 
 .news {
-  padding-top: 230px;
+  padding-top: 240px;
 }
 
 .news .title {
@@ -598,7 +539,7 @@ a.button_learn_more {
 }
 
 .slider-news {
-  margin: 15px 150px 250px 145px;
+  margin: 8px 150px 245px 145px;
 }
 
 .news-first,
@@ -614,6 +555,7 @@ a.button_learn_more {
   background-position: center;
   background-size: cover;
 }
+
 .news-second {
   background: url(../img/news-item-2.png) no-repeat;
   background-position: center;
@@ -631,7 +573,7 @@ a.button_learn_more {
 .news-third {
   max-width: 500px;
   height: 100%;
-  margin: 10px auto 20px;
+  margin: 10px auto 22px;
 }
 
 .news-item:hover,
@@ -674,11 +616,11 @@ a.news-card-text {
 /*================Footer===========================*/
 
 .footer {
-  padding: 240px 150px 335px 150px;
+  padding: 247px 150px 335px 150px;
 }
 
 .footer .title {
-  margin-bottom: 120px;
+  margin-bottom: 116px;
 }
 
 .footer .main-text {
@@ -694,66 +636,47 @@ a.news-card-text {
   margin-left: -3px;
 }
 
-.form-row {
-  margin-top: -8px;
-  margin-left: -10px;
+.form-group {
+  display: block;
+  padding-top: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  margin-left: -3px;
 }
 
-.message {
-  margin-top: 15px;
-}
-
-.form-group label {
+.form-group .label-text {
   color: #d1b4b6;
-  opacity: 0;
-  text-transform: uppercase;
+  cursor: text;
   font-size: 18px;
-}
-
-.form-group:hover label {
-  color: #d1b4b6;
-  opacity: 1;
-}
-
-.form-group:hover input[placeholder],
-.form-group:hover textarea#inputMessage[placeholder] {
-  color: #837880;
-}
-
-.form-control {
-  padding: 0;
   line-height: 0.9;
+  text-transform: uppercase;
+  -moz-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  -webkit-transform: translateY(-25px);
+  transform: translateY(-25px);
+  transition: all 0.3s;
 }
 
-input[type="text"],
-input[type="email"] {
-  color: #d1b4b6;
+.form-group input {
+  background-color: transparent;
   border: none;
+  outline: none;
+  color: #837880;
   font-size: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  transition: all 0.3s;
+  width: 100%;
 }
 
-textarea#inputMessage {
+.form-group input:focus + .label-text {
   color: #d1b4b6;
-  text-transform: uppercase;
-  border-bottom: 1px solid #d1b4b6;
-  border-top: none;
-  border-right: none;
-  border-left: none;
   font-size: 18px;
-}
-
-input[type="text"]::-webkit-input-placeholder,
-input[type="email"]::-webkit-input-placeholder,
-textarea#inputMessage::-webkit-input-placeholder {
-  color: #d1b4b6;
-  text-transform: uppercase;
-}
-
-input[type="text"]::-moz-placeholder,
-input[type="email"]::-moz-placeholder,
-textarea#inputMessage::-moz-placeholder {
-  color: #d1b4b6;
-  text-transform: uppercase;
+  -moz-transform: translateY(-58px);
+  -ms-transform: translateY(-58px);
+  -webkit-transform: translateY(-58px);
+  transform: translateY(-58px);
 }
 
 .contact-wrapper {
@@ -764,6 +687,15 @@ textarea#inputMessage::-moz-placeholder {
   padding: 50px;
   margin-left: 10px;
   position: relative;
+}
+
+.form-group input:focus{
+  border: none;
+  outline: none;
+}
+
+input#message{
+  border-bottom: 1px solid #837880;
 }
 
 .contact-wrapper button {
@@ -781,11 +713,13 @@ textarea#inputMessage::-moz-placeholder {
   padding: 16px 90px 15px 90px;
   position: absolute;
   right: 5%;
-  bottom: 10%;
+  bottom: 9%;
 }
 
 #upbutton {
-  background-color: #d1b4b6;
+  background: url(../img/to-main.png) no-repeat;
+  background-position: center;
+  background-color:#d1b4b6 ;
   border-left: 1px solid #d1b4b6;
   border-right: 1px solid #d1b4b6;
   border-top: none;
@@ -795,8 +729,8 @@ textarea#inputMessage::-moz-placeholder {
   padding: 38px 32px 38px 33px;
   height: 125px;
   width: 88px;
-  bottom: 160px;
-  right: 75px;
+  bottom: 158px;
+  right: 57px;
   cursor: pointer;
   display: none;
   position: fixed;
@@ -840,6 +774,19 @@ textarea#inputMessage::-moz-placeholder {
     margin-bottom: 75px;
   }
 
+  .supply-products  {
+    margin-bottom: 105px;
+  }
+  
+  .supply-products  .supply__item {
+    width: 153px;
+    height: 152px;
+    margin-bottom: 80px;
+    margin-top: -30px;
+    padding-top: 145px;
+  }
+  
+
   .partner {
     margin-bottom: 75px;
     margin: 0;
@@ -847,6 +794,7 @@ textarea#inputMessage::-moz-placeholder {
   .slider-partner{
    margin-bottom: 70px;
   }
+
   .about-us .title {
     padding-bottom: 20px;
   }
@@ -874,6 +822,17 @@ textarea#inputMessage::-moz-placeholder {
   .footer .title {
     padding-bottom: 30px;
   }
+  .supply-products .supply__item:nth-child(1),
+  .supply-products .supply__item:nth-child(6){
+    margin-left: 15px;
+    margin-right: -15px;
+  }
+
+  .supply-products .supply__item:nth-child(5),
+  .supply-products .supply__item:nth-child(10){
+    margin-left: -15px;
+    margin-right: 15px;
+  }
 
   .supply .text {
     text-align: center;
@@ -881,11 +840,12 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   .slider-partner {
-    padding: 0 150px;
+    padding: 0 35px 0 50px;
   }
 
   .partner .main-text {
     padding: 0;
+    margin-top: 0;
     text-align: center;
     max-width: 100%;
   }
@@ -916,10 +876,6 @@ textarea#inputMessage::-moz-placeholder {
     left: 50%;
   }
 
-  .slider__control__desktop {
-    margin-top: -50px;
-  }
-
   .prev,
   .next {
     padding: 20px 40px;
@@ -927,6 +883,10 @@ textarea#inputMessage::-moz-placeholder {
 
   .prev {
     margin-top: 5px;
+  }
+
+  .news{
+    padding-top: 100px;
   }
 
   .slider__news__control__mobile .prev {
@@ -946,8 +906,12 @@ textarea#inputMessage::-moz-placeholder {
     font-size: 25px;
   }
 
+  .slider-news {
+    margin: 15px 25px 250px;
+
+}
   .footer {
-    padding-right: 40px;
+    padding: 100px 35px 20px;
   }
 
   .footer .title {
@@ -964,14 +928,42 @@ textarea#inputMessage::-moz-placeholder {
     text-align: justify;
   }
 
+  .form-group .label-text{
+    font-size: 18px;
+  }
+
+  .form-group input{
+    font-size: 18px;
+  }
+
+  .form-group input:focus + .label-text{
+    font-size: 18px;
+  }
+
+  .form-group input:valid + .label-text {
+    font-size: 18px;
+  }
+
+  .form-group {
+    padding-top: 25px;
+    margin: 0;
+  }
+
   .contact-wrapper {
-    height: 600px;
+    height: 500px;
+    margin-bottom: 100px;
   }
 
   .slider__item {
     height: 150px;
   }
+
+  #upbutton {
+    bottom: 50px;
+    right: 50px;
+  }
 }
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .header,
   .about-us,
@@ -1029,35 +1021,43 @@ textarea#inputMessage::-moz-placeholder {
     margin-bottom: 100px;
   }
 
-  .products-mobile {
+  .supply-products  {
     padding-bottom: 5%;
   }
 
-  .products-mobile .supply__item {
+  .supply-products  .supply__item {
     height: 100px;
   }
 
-  .products-mobile .supply__item:nth-child(1),
-  .products-mobile .supply__item:nth-child(2),
-  .products-mobile .supply__item:nth-child(4),
-  .products-mobile .supply__item:nth-child(5),
-  .products-mobile .supply__item:nth-child(6),
-  .products-mobile .supply__item:nth-child(7),
-  .products-mobile .supply__item:nth-child(8),
-  .products-mobile .supply__item:nth-child(9),
-  .products-mobile .supply__item:nth-child(10) {
+  .supply-products  .supply__item:nth-child(1),
+  .supply-products  .supply__item:nth-child(2),
+  .supply-products  .supply__item:nth-child(4),
+  .supply-products  .supply__item:nth-child(5),
+  .supply-products  .supply__item:nth-child(6),
+  .supply-products  .supply__item:nth-child(7),
+  .supply-products  .supply__item:nth-child(8),
+  .supply-products  .supply__item:nth-child(9),
+  .supply-products  .supply__item:nth-child(10) {
     background-size: 70px;
   }
 
-  .products-mobile .supply__item:nth-child(3) {
+  .supply-products .supply__item:nth-child(1),
+  .supply-products .supply__item:nth-child(5),
+  .supply-products .supply__item:nth-child(6),
+  .supply-products .supply__item:nth-child(10){
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .supply-products  .supply__item:nth-child(3) {
     background-size: 40px;
   }
 
-  .products-mobile .supply__item {
+  .supply-products  .supply__item {
     padding-top: 15%;
   }
 
-  .products-mobile .supply__item a {
+  .supply-products  .supply__item a {
     font-size: 18px;
   }
 
@@ -1072,14 +1072,18 @@ textarea#inputMessage::-moz-placeholder {
 
   .partner .main-text {
     padding: 0;
-    margin: -20px auto 0;
+    margin: 0px auto 0;
     text-align: center;
     font-size: 30px;
     line-height: 1.5;
   }
 
+  .partner .text {
+    margin-top: 6px;
+  }
+
   .partner .slider__control__mobile{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 
   .partner .button.button_learn_more {
@@ -1087,7 +1091,8 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   .slider-partner {
-    margin-left: 0.5%;
+    margin:0 0.5%;
+    padding-bottom: 70px;
   }
   .image__MaxMara:hover::after,
   .image__MaxMara:focus::after {
@@ -1110,7 +1115,7 @@ textarea#inputMessage::-moz-placeholder {
   }
   
   .partner .slider__control__mobile{
-    margin-bottom: 50px;
+    margin: 40px 0;
   }
 
   p.news-card-title {
@@ -1127,20 +1132,19 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   .news .button.button_learn_more {
-    margin-top: -100px;
     margin-bottom: 20px;
   }
   
   .slider-news {
-    margin: 15px 150px 50px 145px;
+    margin: 15px 25px 50px 25px;
   }
   
   .news {
-    margin-top: -200px;
+    margin-top: -150px;
   }
 
   .footer {
-    margin: 0 0 400px 0;
+    margin: 50px 0 50px 0;
   }
 
   .footer .title {
@@ -1158,9 +1162,34 @@ textarea#inputMessage::-moz-placeholder {
     padding: 0;
   }
 
+  .form-group .label-text{
+    font-size: 18px;
+  }
+
+  .form-group input{
+    font-size: 18px;
+  }
+
+  .form-group input:focus + .label-text{
+    font-size: 18px;
+  }
+
+  .form-group input:valid + .label-text {
+    font-size: 18px;
+  }
+
+  .form-group {
+    padding-top: 25px;
+    margin: 0;
+  }
   .contact-wrapper {
     height: 400px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
+  }
+
+  #upbutton {
+    bottom: 20px;
+    right: 20px;
   }
 }
 
@@ -1258,35 +1287,43 @@ textarea#inputMessage::-moz-placeholder {
     margin: 0 auto 20px;
   }
 
-  .products-mobile {
+  .supply-products{
     padding-bottom: 5%;
   }
 
-  .products-mobile .supply__item {
+  .supply-products .supply__item {
     height: 100px;
   }
 
-  .products-mobile .supply__item:nth-child(1),
-  .products-mobile .supply__item:nth-child(2),
-  .products-mobile .supply__item:nth-child(4),
-  .products-mobile .supply__item:nth-child(5),
-  .products-mobile .supply__item:nth-child(6),
-  .products-mobile .supply__item:nth-child(7),
-  .products-mobile .supply__item:nth-child(8),
-  .products-mobile .supply__item:nth-child(9),
-  .products-mobile .supply__item:nth-child(10) {
+  .supply-products .supply__item:nth-child(1),
+  .supply-products .supply__item:nth-child(2),
+  .supply-products .supply__item:nth-child(4),
+  .supply-products .supply__item:nth-child(5),
+  .supply-products .supply__item:nth-child(6),
+  .supply-products .supply__item:nth-child(7),
+  .supply-products .supply__item:nth-child(8),
+  .supply-products .supply__item:nth-child(9),
+  .supply-products .supply__item:nth-child(10) {
     background-size: 50px;
   }
 
-  .products-mobile .supply__item:nth-child(3) {
+  .supply-products .supply__item:nth-child(1),
+  .supply-products .supply__item:nth-child(5),
+  .supply-products .supply__item:nth-child(6),
+  .supply-products .supply__item:nth-child(10){
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .supply-products .supply__item:nth-child(3) {
     background-size: 30px;
   }
 
-  .products-mobile .supply__item {
+  .supply-products .supply__item {
     padding-top: 20%;
   }
 
-  .products-mobile .supply__item a {
+  .supply-products .supply__item a {
     font-size: 15px;
   }
   /*========partner=========*/
@@ -1307,12 +1344,10 @@ textarea#inputMessage::-moz-placeholder {
   }
   
   .partner .slider__control__mobile{
-    margin-bottom: 50px;
+    margin: 60px 0 20px 0;
   }
   
-  .partner .button.button_learn_more {
-    margin-top: 50px;
-  }
+  
   p.news-card-title {
     font-size: 12px;
   }
@@ -1322,7 +1357,7 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   .slider-partner {
-    margin-left: 1%;
+    margin: 1%;
   }
 
   .image__MaxMara:hover::after,
@@ -1350,8 +1385,8 @@ textarea#inputMessage::-moz-placeholder {
   }
     
   .slider-news {
-    margin: 15px 150px 50px 145px;
-  }
+    margin: 15px 25px 50px 25px;
+}
   
   .slider__news__control__mobile {
     margin: 125px 0px 0;
@@ -1371,6 +1406,8 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   /*============news==================*/
+
+
   /*============footer==================*/
 
   .footer {
@@ -1389,10 +1426,29 @@ textarea#inputMessage::-moz-placeholder {
   .footer .text {
     text-align: justify;
   }
+  .form-group .label-text{
+    font-size: 16px;
+  }
 
+  .form-group input{
+    font-size: 16px;
+  }
+
+  .form-group input:focus + .label-text{
+    font-size: 16px;
+  }
+
+  .form-group input:valid + .label-text {
+    font-size: 16px;
+  }
+
+  .form-group {
+    padding-top: 40px;
+    margin: 0;
+  }
   .contact-wrapper {
     height: 400px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
   }
   .contact-wrapper button {
     font-size: 18px;
@@ -1401,7 +1457,11 @@ textarea#inputMessage::-moz-placeholder {
 
   #upbutton {
     bottom: 10px;
-    right: 5px;
+    right: 10px;
+    font-size: 14px;
+    padding: 10px 30px 30px 10px;
+    height: 70px;
+    width: 30px;
   }
 }
 
@@ -1426,14 +1486,14 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   .header__title {
-    font-size: 20px;
+    font-size: 28px;
     padding-bottom: 20px;
   }
 
   a.button {
     background-color: transparent;
     font-family: "Montserrat", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
   }
 
@@ -1448,14 +1508,14 @@ textarea#inputMessage::-moz-placeholder {
   }
 
   .about-us .main-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.4;
     padding-bottom: 10px;
     margin-left: -10px;
   }
 
   .text {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.2;
     text-align: justify;
   }
@@ -1492,34 +1552,44 @@ textarea#inputMessage::-moz-placeholder {
     padding: 0;
     margin-left: 5px;
   }
-  .products-mobile {
+  .supply-products {
     padding-bottom: 5%;
   }
-  .products-mobile .supply__item {
+  .supply-products .supply__item {
     height: 100px;
     margin-bottom: 2%;
   }
 
-  .products-mobile .supply__item:nth-child(1),
-  .products-mobile .supply__item:nth-child(2),
-  .products-mobile .supply__item:nth-child(4),
-  .products-mobile .supply__item:nth-child(5),
-  .products-mobile .supply__item:nth-child(6),
-  .products-mobile .supply__item:nth-child(7),
-  .products-mobile .supply__item:nth-child(8),
-  .products-mobile .supply__item:nth-child(9),
-  .products-mobile .supply__item:nth-child(10) {
+  .supply-products .supply__item:nth-child(1),
+  .supply-products .supply__item:nth-child(2),
+  .supply-products .supply__item:nth-child(4),
+  .supply-products .supply__item:nth-child(5),
+  .supply-products .supply__item:nth-child(6),
+  .supply-products .supply__item:nth-child(7),
+  .supply-products .supply__item:nth-child(8),
+  .supply-products .supply__item:nth-child(9),
+  .supply-products .supply__item:nth-child(10) {
     background-size: 40px;
   }
-  .products-mobile .supply__item:nth-child(3) {
+
+  .supply-products .supply__item:nth-child(1),
+  .supply-products .supply__item:nth-child(5),
+  .supply-products .supply__item:nth-child(6),
+  .supply-products .supply__item:nth-child(10){
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .supply-products .supply__item:nth-child(6),
+  .supply-products .supply__item:nth-child(3) {
     background-size: 20px;
   }
 
-  .products-mobile .supply__item {
+  .supply-products .supply__item {
     padding-top: 25%;
   }
-  .products-mobile .supply__item a {
-    font-size: 12px;
+  .supply-products .supply__item a {
+    font-size: 14px;
   }
   .button.button_learn_more {
     padding: 7px 25px 7px 25px;
@@ -1549,14 +1619,19 @@ textarea#inputMessage::-moz-placeholder {
     padding: 0 0 15px 0;
     margin: 0;
   }
+
+  .partner .slider__control__mobile{
+    margin-top: 40px;
+  }
   .slider__control__mobile {
     padding: 0;
     margin-bottom: 25px;
   }
 
   .slider-partner {
-    margin-left: 0.5%;
-    padding-bottom: 50px;
+    margin:0  0.5%;
+    padding-bottom: 40px;
+
   }
 
 
@@ -1597,11 +1672,11 @@ textarea#inputMessage::-moz-placeholder {
     margin-bottom: 0;
   }
   p.news-card-title {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   a.news-card-text {
-    font-size: 12px;
+    font-size: 14px;
   }
   .news .button.button_learn_more {
     margin-top: 20px;
@@ -1628,44 +1703,46 @@ textarea#inputMessage::-moz-placeholder {
   /*=============Form==================*/
 
   .contact-wrapper {
-    height: 225px;
-    margin: 0 auto;
+    height: 260px;
+    margin: 0 auto 50px;
     padding: 10px 20px;
   }
 
   #upbutton {
     bottom: 5px;
     right: 5px;
-    font-size: 10px;
+    font-size: 14px;
     padding: 10px 30px 30px 10px;
     height: 70px;
     width: 30px;
   }
-
-  .message {
-    margin-top: 10px;
+  .form-group .label-text{
+    font-size: 14px;
   }
 
-  .form-group label {
-    font-size: 10px;
-    margin-bottom: 0;
-  }
-  .form-control {
-    padding: 0;
+  .form-group input{
+    font-size: 14px;
   }
 
-  input[type="text"],
-  input[type="email"] {
-    font-size: 10px;
+  .form-group input:focus + .label-text{
+    font-size: 14px;
   }
-  textarea#inputMessage {
-    font-size: 10px;
+
+  .form-group input:valid + .label-text {
+    font-size: 14px;
+  }
+
+  .form-group {
+    padding-top: 25px;
+    margin: 0;
   }
 
   .contact-wrapper button {
-    font-size: 12px;
+    font-size: 14px;
     padding: 7px 30px 7px 30px;
   }
 }
+
+
 
 
