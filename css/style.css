@@ -71,7 +71,6 @@ button.dropdown-toggle {
   font-size: 14px;
 }
 /*=============================NAV=====================================*/
-
 .header {
   padding: 21px 0px 21px 160px;
   color: #837880;
@@ -186,7 +185,6 @@ a.button_kontact {
   border-top: 1px solid #837880;
 }
 /*====================================== about us=============================*/
-
 .about-us {
   padding: 239px 162px 0px 160px;
 }
@@ -246,7 +244,6 @@ a.button_read_more {
   margin-top: 85px;
 }
 /*====================================================Supply============================*/
-
 .supply {
   width: 100%;
   margin-bottom: 250px;
@@ -466,7 +463,6 @@ a.button_learn_more {
 .slider__control__desktop {
   padding-top: 70px;
 }
-
 .slider__control__mobile .next,
 .slider__control__mobile .prev {
   border-bottom: 1px solid #d1b4b6;
@@ -640,6 +636,12 @@ a.news-card-text {
   margin-left: -3px;
 }
 
+form {
+  text-align: left;
+  border: 1px solid #837880;
+  padding: 15px;
+}
+
 .form-group {
   display: block;
   padding-top: 30px;
@@ -665,10 +667,10 @@ a.news-card-text {
 .form-group input {
   background-color: transparent;
   border: none;
-  outline: none;
   color: #837880;
   font-size: 18px;
   letter-spacing: 1px;
+  outline: none;
   text-align: left;
   transition: all 0.3s;
   width: 100%;
@@ -677,6 +679,20 @@ a.news-card-text {
 .form-group input:focus + .label-text {
   color: #d1b4b6;
   font-size: 18px;
+  -moz-transform: translateY(-58px);
+  -ms-transform: translateY(-58px);
+  -webkit-transform: translateY(-58px);
+  transform: translateY(-58px);
+}
+
+.form-group input:focus{
+  border: none;
+  outline: none;
+}
+
+.form-group input:valid + .label-text {
+  font-size: 18px;
+  border:0;
   -moz-transform: translateY(-58px);
   -ms-transform: translateY(-58px);
   -webkit-transform: translateY(-58px);
@@ -693,13 +709,8 @@ a.news-card-text {
   position: relative;
 }
 
-.form-group input:focus{
-  border: none;
-  outline: none;
-}
-
 input#message{
-  border-bottom: 1px solid #d1b4b6;
+  border-bottom: 1px solid #837880;
 }
 
 .contact-wrapper button {
@@ -765,11 +776,9 @@ input#message{
   .social:last-child {
     margin-left: 0px;
   }
-  
   .section-header {
     padding: 150px 0;
   }
-  
   .about-us,
   .footer {
     padding-top: 100px;
@@ -828,7 +837,6 @@ input#message{
   .footer .title {
     padding-bottom: 30px;
   }
-  
   .supply-products .supply__item:nth-child(1),
   .supply-products .supply__item:nth-child(6){
     margin-left: 15px;
@@ -915,8 +923,8 @@ input#message{
 
   .slider-news {
     margin: 15px 25px 250px;
-  }
-  
+
+}
   .footer {
     padding: 100px 35px 20px;
   }
@@ -957,7 +965,7 @@ input#message{
   }
 
   .contact-wrapper {
-    height: 500px;
+    height: 600px;
     margin-bottom: 100px;
   }
 
@@ -1354,6 +1362,7 @@ input#message{
     margin: 60px 0 20px 0;
   }
   
+  
   p.news-card-title {
     font-size: 12px;
   }
@@ -1420,7 +1429,6 @@ input#message{
     margin: 50px auto 0;
     padding: 0;
   }
-  
   .footer .title {
     margin-bottom: 50px;
   }
@@ -1433,7 +1441,6 @@ input#message{
   .footer .text {
     text-align: justify;
   }
-  
   .form-group .label-text{
     font-size: 16px;
   }
@@ -1454,12 +1461,10 @@ input#message{
     padding-top: 40px;
     margin: 0;
   }
-  
   .contact-wrapper {
     height: 400px;
     margin: 0 auto 100px;
   }
-  
   .contact-wrapper button {
     font-size: 18px;
     padding: 12px 40px 12px 40px;
@@ -1534,7 +1539,6 @@ input#message{
     margin-bottom: 20px;
     margin-top: -20px;
   }
-  
   .button.button_read_more {
     padding: 7px 25px 7px 25px;
   }
@@ -1557,18 +1561,15 @@ input#message{
     padding-bottom: 10px;
     margin-top: 0;
   }
-  
   .supply p.text {
     margin-bottom: 15px;
     text-align: justify;
     padding: 0;
     margin-left: 5px;
   }
-  
   .supply-products {
     padding-bottom: 5%;
   }
-  
   .supply-products .supply__item {
     height: 100px;
     margin-bottom: 2%;
@@ -1602,15 +1603,12 @@ input#message{
   .supply-products .supply__item {
     padding-top: 25%;
   }
-  
   .supply-products .supply__item a {
     font-size: 14px;
   }
-  
   .button.button_learn_more {
     padding: 7px 25px 7px 25px;
   }
-  
   .supply__item {
     margin-bottom: 10px;
   }
@@ -1640,7 +1638,6 @@ input#message{
   .partner .slider__control__mobile{
     margin-top: 40px;
   }
-  
   .slider__control__mobile {
     padding: 0;
     margin-bottom: 25px;
@@ -1649,47 +1646,46 @@ input#message{
   .slider-partner {
     margin:0  0.5%;
     padding-bottom: 40px;
+
   }
 
- .image__MaxMara:hover::after,
- .image__MaxMara:focus::after {
-   content: 'MaxMara';
-   position: absolute;
-   top: 60%;
-   color:#fff;
-   font-weight: bold;
-   left: 50%;
- }
 
- .image__HugoBoss:hover::after,
- .image__HugoBoss:focus::after {
-   content: 'HugoBoss';
-   position: absolute;
-   top: 60%;
-   color:#fff;
-   font-weight: bold;
-   left: 50%;
- }
+.image__MaxMara:hover::after,
+.image__MaxMara:focus::after {
+  content: 'MaxMara';
+  position: absolute;
+  top: 60%;
+  color:#fff;
+  font-weight: bold;
+  left: 50%;
+}
+
+.image__HugoBoss:hover::after,
+.image__HugoBoss:focus::after {
+  content: 'HugoBoss';
+  position: absolute;
+  top: 60%;
+  color:#fff;
+  font-weight: bold;
+  left: 50%;
+}
 
   /*==============News===================*/
- .news {
-   margin-top: -225px;
- }
-  
- .slider-news {
-   margin: 0;
-   padding: 0;
- }
+  .news {
+    margin-top: -225px;
+  }
+  .slider-news {
+    margin: 0;
+    padding: 0;
+  }
   .slider__news__control__mobile {
     margin: 100px 0 0;
     padding: 0;
   }
-  
   .news .title {
     padding-bottom: 15px;
     margin-bottom: 0;
   }
-  
   p.news-card-title {
     font-size: 14px;
   }
@@ -1697,7 +1693,6 @@ input#message{
   a.news-card-text {
     font-size: 14px;
   }
-  
   .news .button.button_learn_more {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1708,7 +1703,6 @@ input#message{
     margin: 0;
     padding: 0 0 25px 0;
   }
-  
   .footer .main-text {
     font-size: 16px;
     line-height: 1.2;
@@ -1737,7 +1731,6 @@ input#message{
     height: 70px;
     width: 30px;
   }
-  
   .form-group .label-text{
     font-size: 14px;
   }
@@ -1759,11 +1752,34 @@ input#message{
     margin: 0;
   }
 
+  .form-group .label-text {
+    text-transform: uppercase;
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+ 
+  .form-group input:focus + .label-text {
+    -moz-transform: translateY(-35px);
+    -ms-transform: translateY(-35px);
+    -webkit-transform: translateY(-35px);
+    transform: translateY(-35px);
+  }
+  
+  .form-group input:valid + .label-text {
+    -moz-transform: translateY(-35px);
+    -ms-transform: translateY(-35px);
+    -webkit-transform: translateY(-35px);
+    transform: translateY(-35px);
+  }
+  
   .contact-wrapper button {
     font-size: 14px;
     padding: 7px 30px 7px 30px;
   }
 }
+
 
 
 
