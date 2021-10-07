@@ -1775,6 +1775,10 @@ input#message{
     transform: translateY(-35px);
   }
   
+  .form-group input{
+    margin-left:-3px;
+  }
+  
   .contact-wrapper button {
     font-size: 14px;
     padding: 7px 30px 7px 30px;
