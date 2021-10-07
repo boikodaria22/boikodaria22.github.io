@@ -1595,7 +1595,6 @@ input#message{
     margin-right: 0;
   }
 
-  .supply-products .supply__item:nth-child(0n+6),
   .supply-products .supply__item:nth-child(0n+3) {
     background-size: 20px;
   }
