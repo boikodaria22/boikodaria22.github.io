@@ -711,6 +711,7 @@ form {
 
 input#message{
   border-bottom: 1px solid #837880;
+  border-radius: 0px;
 }
 
 .contact-wrapper button {
