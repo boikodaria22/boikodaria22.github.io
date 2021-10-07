@@ -1699,7 +1699,7 @@ input#message{
 
   /*==============Kontakt===================*/
   .footer .title {
-    margin: 0;
+    margin: 20px 0 10px;
     padding: 0 0 25px 0;
   }
   .footer .main-text {
