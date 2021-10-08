@@ -1753,8 +1753,8 @@ input#message{
     margin: 0;
   }
   
-  .form-group:last-child {
-    margin-bottom: 20px;
+  .form-group #message{
+    margin-bottom: 25px;
   }
 
   .form-group .label-text {
