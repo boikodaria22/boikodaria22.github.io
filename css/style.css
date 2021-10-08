@@ -1749,8 +1749,12 @@ input#message{
   }
 
   .form-group {
-    padding: 25px 0;
+    padding-top: 25px;
     margin: 0;
+  }
+  
+  .form-group:last-child {
+    margin-bottom: 25px;
   }
 
   .form-group .label-text {
