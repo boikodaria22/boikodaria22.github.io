@@ -1755,6 +1755,7 @@ input#message{
   
   .form-group #message{
     margin-bottom: 25px;
+    border:none;
   }
 
   .form-group .label-text {
