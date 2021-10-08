@@ -389,8 +389,9 @@ a.button_learn_more {
 /*=======Slider========*/
 .slider-partner {
   padding-top: 10px;
-  margin-left: -48px;
+  margin-left: -30px;
   padding-bottom: 100px;
+  margin-right: 5px;
 }
 
 .image__HugoBoss,
