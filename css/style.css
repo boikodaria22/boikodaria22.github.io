@@ -1569,8 +1569,13 @@ input#message{
     margin-left: 5px;
   }
   .supply-products {
-    padding-bottom: 5%;
+    padding-bottom: 10%;
   }
+  
+  .products{
+   margin-bottom:0;
+  }
+  
   .supply-products .supply__item {
     height: 100px;
     margin-bottom: 2%;
