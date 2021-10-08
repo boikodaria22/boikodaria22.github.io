@@ -1375,6 +1375,10 @@ input#message{
     margin: 0;
   }
   
+  .slider-partner {
+    padding-bottom: 35px;
+  }
+  
   .news .title {
     margin-bottom:0;
   }
