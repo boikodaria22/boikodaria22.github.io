@@ -1759,7 +1759,6 @@ input#message{
   }
   
   .form-group #message{
-    margin-bottom: 25px;
     border:none;
   }
 
@@ -1792,6 +1791,7 @@ input#message{
   .contact-wrapper button {
     font-size: 14px;
     padding: 7px 30px 7px 30px;
+    margin-top:20px;
   }
 }
 
