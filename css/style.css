@@ -1642,7 +1642,7 @@ input#message{
   }
 
   .partner .slider__control__mobile{
-    margin-top: 40px;
+    margin-top: 0;
   }
   .slider__control__mobile {
     padding: 0;
@@ -1685,7 +1685,7 @@ input#message{
     padding: 0;
   }
   .slider__news__control__mobile {
-    margin: 100px 0 0;
+    margin: 70px 0 0;
     padding: 0;
   }
   .news .title {
@@ -1703,7 +1703,10 @@ input#message{
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
+  
+  .slider__news__control__mobile .next, .slider__news__control__mobile .prev{
+    margin-bottom:30px;
+  }
   /*==============Kontakt===================*/
   .footer .title {
     margin: 20px 0 10px;
