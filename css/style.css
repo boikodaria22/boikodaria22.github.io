@@ -1719,7 +1719,7 @@ input#message{
   /*=============Form==================*/
 
   .contact-wrapper {
-    height: 260px;
+    height: 300px;
     margin: 0 auto 50px;
     padding: 10px 20px;
   }
@@ -1749,7 +1749,7 @@ input#message{
   }
 
   .form-group {
-    padding-top: 25px;
+    padding: 25px 0;
     margin: 0;
   }
 
@@ -1762,17 +1762,17 @@ input#message{
   }
  
   .form-group input:focus + .label-text {
-    -moz-transform: translateY(-35px);
-    -ms-transform: translateY(-35px);
-    -webkit-transform: translateY(-35px);
-    transform: translateY(-35px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
   }
   
   .form-group input:valid + .label-text {
-    -moz-transform: translateY(-35px);
-    -ms-transform: translateY(-35px);
-    -webkit-transform: translateY(-35px);
-    transform: translateY(-35px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
   }
   
   .form-group input{
