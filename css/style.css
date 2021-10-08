@@ -1339,13 +1339,16 @@ input#message{
     padding-top: 20%;
   }
 
+  .products{
+    margin-bottom:0;
+  }
   .supply-products .supply__item a {
     font-size: 15px;
   }
   /*========partner=========*/
 
   .partner .title {
-    padding-bottom: 70px;
+    padding-bottom: 30px;
   }
 
   .partner .main-text {
@@ -1360,9 +1363,12 @@ input#message{
   }
   
   .partner .slider__control__mobile{
-    margin: 60px 0 20px 0;
+    margin: 0;
   }
   
+  .news .title {
+    margin-bottom:0;
+  }
   
   p.news-card-title {
     font-size: 12px;
@@ -1401,7 +1407,7 @@ input#message{
   }
     
   .slider-news {
-    margin: 15px 25px 50px 25px;
+    margin: 15px 25px 35px 25px;
 }
   
   .slider__news__control__mobile {
@@ -1415,6 +1421,10 @@ input#message{
   .news .button.button_learn_more {
     margin-top: -70px;
     margin-bottom: 20px;
+  }
+  
+  .slider__news__control__mobile .next, .slider__news__control__mobile .prev{
+   margin:0 10px 0; 
   }
 
   .news {
