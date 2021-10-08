@@ -838,6 +838,11 @@ input#message{
   .footer .title {
     padding-bottom: 30px;
   }
+  
+  .supply-products{
+  margin-bottom:55px;
+  }
+  
   .supply-products .supply__item:nth-child(0n+1),
   .supply-products .supply__item:nth-child(0n+6){
     margin-left: 15px;
@@ -923,7 +928,7 @@ input#message{
   }
 
   .slider-news {
-    margin: 15px 25px 250px;
+    margin: 15px 25px 280px;
 
 }
   .footer {
@@ -1045,6 +1050,10 @@ input#message{
     height: 100px;
   }
 
+  .products{
+  margin-bottom:0;
+  }
+  
   .supply-products  .supply__item:nth-child(0n+1),
   .supply-products  .supply__item:nth-child(0n+2),
   .supply-products  .supply__item:nth-child(0n+4),
